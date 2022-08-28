@@ -11,6 +11,8 @@
 		3891448228B1EBCA007F755B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891448128B1EBCA007F755B /* ContentView.swift */; };
 		3891448428B1EBCE007F755B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3891448328B1EBCE007F755B /* Assets.xcassets */; };
 		3891448728B1EBCE007F755B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3891448628B1EBCE007F755B /* Preview Assets.xcassets */; };
+		389C0FAB28BB5A8A000D5900 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C0FAA28BB5A8A000D5900 /* Model.swift */; };
+		389C0FAD28BB5BA0000D5900 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C0FAC28BB5BA0000D5900 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3891448128B1EBCA007F755B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3891448328B1EBCE007F755B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3891448628B1EBCE007F755B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		389C0FAA28BB5A8A000D5900 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		389C0FAC28BB5BA0000D5900 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				3891448128B1EBCA007F755B /* ContentView.swift */,
 				3891448328B1EBCE007F755B /* Assets.xcassets */,
 				3891448528B1EBCE007F755B /* Preview Content */,
+				389C0FAA28BB5A8A000D5900 /* Model.swift */,
+				389C0FAC28BB5BA0000D5900 /* ViewModel.swift */,
 			);
 			path = "learn-swiftui";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389C0FAB28BB5A8A000D5900 /* Model.swift in Sources */,
 				3891448228B1EBCA007F755B /* ContentView.swift in Sources */,
+				389C0FAD28BB5BA0000D5900 /* ViewModel.swift in Sources */,
 				3891448028B1EBCA007F755B /* learn_swiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
